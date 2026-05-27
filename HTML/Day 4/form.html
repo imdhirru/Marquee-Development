@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+</head>
+<body>
+    <!-- Header -->
+     <h1>Student Registration Form</h1>
+    <form>
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Example Kumar" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@mail.com" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="********" id="password" required>
+            
+            <br>
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" placeholder="123-4567-890" required>
+
+
+            <br>
+            <label for="dob">D.O.B</label>
+            <input type="date" id="dob" placeholder="dd-mm-yyyy" required>
+
+            <!-- <br>
+            <input style="background-color: rgb(0, 0, 0);color: white;" type="button" value="Submit"> -->
+
+        </fieldset>
+
+        <br>
+        <!-- Gender Information -->
+         <fieldset>
+            <legend>Gender Information</legend>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male" >
+
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" >
+
+            <label for="Others">Others</label>
+            <input type="radio" name="gender" id="Others" >
+
+         </fieldset>
+
+         <br>
+         <fieldset>
+            <!-- Adress Information -->
+             <legend>Adress Information</legend>
+
+             <label for="country">Choose Country</label>
+             <!-- Country Names -->
+             <select name="Country" id="country">
+                <option>India</option>
+                <option>Japan</option>
+                <option>Bhutan</option>
+                <option>Nepal</option>
+                <option>China</option>
+                <option>Russia</option>
+                <option>Iran</option>
+                <option>Israel</option>
+                <option>America</option>
+                <option>England</option>
+                <option >Others</option>
+            </select>
+
+            <!-- State name -->
+             <br>
+             <label for="State">Choose State</label>
+             <select id="State">
+                <option>Bihar</option>
+                <option>Uttar-Pradesh</option>
+                <option>Rajasthan</option>
+                <option>Gujrat</option>
+                <option>Madhya-Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Others</option>
+             </select>
+         </fieldset>
+    </form>
+</body>
+</html>
