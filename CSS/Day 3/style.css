@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Professional dark gradient */
+    background: radial-gradient(circle at top, #1f2937, #0b0f19);
+
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card{
+    width: 340px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(14px);
+    border-radius: 22px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid #38bdf8; /* professional cyan */
+    box-shadow: 0 0 25px rgba(56,189,248,0.6);
+
+    margin-top: -60px;
+    background: #111;
+}
+
+h1{
+    margin: 15px 0 5px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.role{
+    font-size: 14px;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.skills{
+    margin: 15px 0;
+}
+
+.skills span{
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    font-size: 12px;
+
+    background: rgba(56,189,248,0.1);
+    border: 1px solid #38bdf8;
+    border-radius: 20px;
+
+    color: #38bdf8;
+}
+
+/* Buttons */
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    transition: 0.3s ease;
+}
+
+/* GitHub */
+.github{
+    background: #111827;
+    color: white;
+    border: 1px solid #374151;
+}
+
+/* LinkedIn */
+.linkedin{
+    background: #0a66c2;
+    color: white;
+}
+
+/* LeetCode */
+.leetcode{
+    background: #ffa116;
+    color: #111;
+}
+
+/* Hover effect */
+.btn:hover{
+    transform: translateY(-3px);
+    opacity: 0.9;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
