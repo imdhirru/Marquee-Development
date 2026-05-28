@@ -32,6 +32,7 @@ Tools & Platforms
 Git & GitHub
 VS Code
 Linux/Kali Linux
+
 🎯 Purpose of This Repository
 Track my development journey publicly
 Stay consistent with daily coding
