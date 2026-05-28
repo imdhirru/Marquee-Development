@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px;
+}
+
+/* Top Section */
+.top {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.flipkart {
+    display: inline-block;
+    background-color: #ffeb3b;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.travel {
+    display: inline-block;
+    background-color: #d6d6d6;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.location {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Middle Section */
+.middle {
+    padding: 15px 0;
+    display: block;
+}
+
+.middle input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0a6bd4;
+    outline: none;
+    font-size: 14px;
+}
+
+.middle span {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Bottom Section - Category Boxes */
+.bottom {
+    padding: 15px 0;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.bottom .box {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #0091ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #333;
+    color: white;
+}
+
+/* Hero Section */
+#hero {
+    padding: 20px;
+    text-align: center;
+}
+
+#hero img {
+    height: 200px;
+    width: auto;
+    border-radius: 8px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+#hero div {
+    display: inline-block;
+}
