@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Info</title>
+    <style>
+        :root{
+            --p: rgb(161, 31, 254);
+            --s: rgb(0, 0, 0);
+            --t: rgb(255, 255, 255);
+            --accent: rgb(255, 255, 255);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: var(--t);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background-color: var(--s);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid var(--p);
+        }
+        
+        h1 {
+            color: var(--p);
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .pizza, .indian, .south-ind {
+            background-color: var(--s);
+            border: 2px solid var(--p);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 50px;
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            color: var(--p);
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #ffffff;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Product Information</h1>
+        </header>
+        <div class="parent">
+            <div class="pizza">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/330px-Pizza-3007395.jpg" alt="Pizza" class="product-image">
+                <h3>Pizza</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nesciunt officiis excepturi voluptatibus labore quaerat distinctio maxime quisquam totam consequuntur molestias porro id debitis libero veritatis, quas sunt eaque quasi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut rem dolores quae inventore modi quis cum provident similique vel, ducimus eligendi explicabo ex, odio debitis illo nemo assumenda laudantium labore.</p>
+            </div>
+
+            <div class="indian">
+                <img src="image.png" alt="Daal-Bhaat-Chokha" class="product-image">
+                <h3>Daal-Bhaat-Chokha</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi enim laudantium quibusdam error nulla nemo totam dolore. Commodi consectetur eveniet cumque officia officiis consequatur, dolorum non, a asperiores, laudantium autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure veritatis, aut tenetur deserunt exercitationem, quod laborum facere quas dolore optio non id ratione porro excepturi facilis eos rem similique repellat.</p>
+            </div>
+
+            <div class="south-ind">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgAW3jexQqOf5Wo0A_p5ffhScaVaF2r5UzHA&s" alt="Dosa-Edli-Sambar" class="product-image">
+                <h3>Dosa-Edli-Sambar</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab voluptates dolore rerum minus, ad minima, ipsam ducimus officiis amet tempora hic est possimus obcaecati ea, veritatis inventore? Dolorum illum autem velit voluptates? Exercitationem ducimus odit minus odio cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus consectetur natus totam nesciunt facere assumenda quod in quae, minima, distinctio accusamus praesentium eum incidunt ipsum, earum quibusdam corporis sint dolorem.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
