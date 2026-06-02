@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Assignment</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            background-color: antiquewhite;
+            padding: 5px;
+
+        }
+        .navbar a{
+            color: rgb(29, 90, 29);
+            font-size: 24px;
+            text-decoration: none;
+            
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(23, 72, 23);
+            color: #f2f2f2;
+        }
+        .hero{
+            height: 500px;
+            /* padding: 0px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <nav>
+            <ul class="navbar">
+                <li> <a href=""> Home</a></li>
+                <li> <a href=""> Blog</a></li>
+                <li> <a href=""> Product</a></li>
+                <li> <a href=""> Service</a></li>
+                <li> <a href=""> Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+
+    <!-- Hero Section -->
+     <div class="hero">
+        <h1>Welcome to the Website</h1>
+        <span>These are the description of website</span>
+    </div>
+    <div class="check">
+        <input type="checkbox">
+    </div>
+</body>
+</html>
