@@ -38,7 +38,7 @@ body{
   list-style-type: none;
 }
 
-/* *******Search Box******** */
+/* Search Box */
 
 .search-bx{
   border: 1px solid rgb(210, 210, 210);
@@ -254,4 +254,18 @@ hr{
     color:#999;
     line-height:1.6;
     font-size:14px;
+}
+
+.logo{
+  color: red;
+}
+.my{
+  color: black;
+}
+.icon{
+  width: 25px;
+  border-radius: 25%;
+}
+.bms{
+    padding-bottom: 10%;
 }
